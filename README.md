@@ -48,8 +48,10 @@ ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=yyy.yyy
   ```
 
 open Teminal 2 and navigate the workspace
+```sh
 source /opt/ros/humble/setup.bash
 source install/setup.bash
+```
 
 ```sh
 ros2 run move_ur1 move_joint_trajectory 
@@ -62,8 +64,10 @@ ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168
 from the UR pendant run the ros program
 
 open Teminal 2 and navigate the workspace
+```sh
 source /opt/ros/humble/setup.bash
 source install/setup.bash
+```
 
 ```sh
 ros2 run move_ur1 move_joint_trajectory 
@@ -72,6 +76,10 @@ ros2 run move_ur1 move_joint_trajectory
 
 
 # Using MoveIt
+```sh
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=yyy.yyy.yyy.yyy use_fake_hardware:=true launch_rviz:=false initial_joint_controller:=joint_trajectory_controller
+```
 # and in another shell
+```sh
 ros2 launch move_ur1 ur_moveit.launch.py ur_type:=ur5e launch_rviz:=true use_sim_time:=true
+```
