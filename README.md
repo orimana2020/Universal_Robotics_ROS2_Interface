@@ -1,5 +1,11 @@
 # ur_proj1
-UR interface Robotics course, 
+Universal Robotics ROS2 Interface
+
+
+
+https://github.com/orimana2020/Universal_Robotics_ROS2_Interface/assets/69038641/f9e22aed-47af-4f02-8ce0-54e5cd0ad983
+
+
 
 ### Prerequisites
 
